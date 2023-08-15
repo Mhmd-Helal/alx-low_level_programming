@@ -9,9 +9,12 @@ int main(void)
 {
 	int i;
 	int j;
-	for (int k = 0; i < 9; k++)
+	int k;
+	int l;
+
+	for (k = 0; i < 9; k++)
 	{
-		for (int l = 0; l < 9; l++)
+		for (l = 0; l < 9; l++)
 		{
 			
 			for (i = 0; i <= 9; i++)
@@ -24,10 +27,9 @@ int main(void)
 					putchar(' ');
 					putchar(i + '0');
 					putchar(j + '0');
-				//	if (i < 9 || j < 9){
-						putchar(',');
-						putchar(' ');
-					//}
+					putchar(',');
+					putchar(' ');
+				
 				}
 				
 			}
