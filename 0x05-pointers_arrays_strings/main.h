@@ -1,10 +1,7 @@
 #ifndef _MAIN_H_
-#define _MAIN_H_
-/**
- * _putchar - writes the character c to std
- * @c: parameter to compare
- * Return: 1 or 0
- */
+#define _MAIN_
+
 void reset_to_98(int *n);
+void swap_int(int *a, int *b);
 
 #endif
