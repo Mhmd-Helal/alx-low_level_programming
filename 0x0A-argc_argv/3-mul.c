@@ -11,19 +11,19 @@ int main(int argc, char *argv[])
 {
 	if (argc != 3)
 	{
-		printf("missing\n");
+		printf("Error\n");
 		return (1);
 	}
 	else
 	{
 		int i;
-		int sum = 0;
+		int mul = 1;
 
 		for (i = 1; i < argc; i++)
 		{
-			sum = sum + atoi(argv[i]);
+			mul = mul * atoi(argv[i]);
 		}
-		printf("%d\n", sum);
+		printf("%d\n", mul);
 	}
 	return (0);
 }
