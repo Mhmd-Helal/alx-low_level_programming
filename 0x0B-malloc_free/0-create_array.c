@@ -1,9 +1,10 @@
 #include "main.h"
 #include <stdlib.h>
-/*create_array - function allocate memory
+/**
+ *create_array - function allocate memory
  *@size: size of allocated memory
  *@c: value char that is allocate in this memory
- *return: pointer of array
+ *Return: pointer of array
  */
 char *create_array(unsigned int size, char c)
 {
