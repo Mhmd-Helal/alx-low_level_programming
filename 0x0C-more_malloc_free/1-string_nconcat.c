@@ -22,9 +22,9 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	t = malloc(size);
 	if (!t)
 		return (NULL);
-	for (i = 0; *(s1 + i) != '\0'; i++)
+	for (i = 0; i < len1; i++)
 		t[i] = s1[i];
-	for (j = 0; j < n; j++)
+	for (j = 0; j < len2; j++)
 		t[i + j] = s2[j];
 	t[i + j] = '\0';
 	return (t);
