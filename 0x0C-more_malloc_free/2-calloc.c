@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- *calloc - allocate memory and set value to 0
+ *_calloc - allocate memory and set value to 0
  *@nmemb: num of elements that allocated
  *@size: size of the element
  *Return: pointer
