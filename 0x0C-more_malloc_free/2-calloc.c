@@ -4,7 +4,7 @@
  *calloc - allocate memory and set value to 0
  *@nmemb: num of elements that allocated
  *@size: size of the element
- *return: pointer
+ *Return: pointer
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
