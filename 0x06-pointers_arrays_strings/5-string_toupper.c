@@ -4,7 +4,7 @@
  *@str: string that converted
  *Return: pointer str that converted
  */
-char *string_toupper(char *)
+char *string_toupper(char *str)
 {
 	int i;
 
