@@ -7,7 +7,7 @@
  *@h: first node of list
  *Return: len of list
  */
-size_t list_len(const list_t *h);
+size_t list_len(const list_t *h)
 {
 	int len = 0;
 
