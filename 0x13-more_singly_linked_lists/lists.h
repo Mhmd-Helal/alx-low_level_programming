@@ -1,6 +1,5 @@
-#ifndef _lists_H_
-#define _lists_H_
-
+#ifndef _LISTS_H_
+#define _LISTS_H_
 /**
  * struct node - singly linked list
  * @n: num - (malloc'ed num)
