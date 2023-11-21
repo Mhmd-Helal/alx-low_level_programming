@@ -1,6 +1,11 @@
 #ifndef _lists_H_
 #define _lists_H_
 
+/**
+ * struct node - singly linked list
+ * @n: num - (malloc'ed num)
+ * @next: points to the next node
+ */
 typedef struct node
 {
 	int n;
