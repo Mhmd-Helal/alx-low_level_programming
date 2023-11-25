@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stddef.h>
-#include <math.h>
 /**
  *binary_to_uint - convert bin to unsignedint
  *@b: char of bin is 1 or 0
@@ -23,7 +22,7 @@ unsigned int binary_to_uint(const char *b)
 		}
 		else
 		{
-			sum += (b[len - 1] - '0') * pow(2, i);
+			sum += (b[len - 1] - '0') * _pow(2, i);
 			len--;
 		}
 	return (sum);
