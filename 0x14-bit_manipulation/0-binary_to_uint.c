@@ -1,5 +1,4 @@
-#include "main.h"
-#include <stddef.h>
+#include <stdlib.h>
 /**
  *binary_to_uint - convert bin to unsignedint
  *@b: char of bin is 1 or 0
